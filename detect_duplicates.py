@@ -1,5 +1,3 @@
-
-
 from pymilvus import MilvusClient
 import torch
 import numpy as np
