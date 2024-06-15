@@ -10,6 +10,9 @@ The project focuses on the following key tasks:
 3. **Milvus for Duplicate Detection:** Set up a Milvus instance, insert embeddings, and implement a method to search for potential duplicates.
 4. **Docker/Docker Compose Integration:** Containerize the project for easy reproducibility.
 
+## Demo:
+
+https://drive.google.com/file/d/15rrFDdftzcWTLXRy5gJbzYsBdPyZLvmA/view?usp=sharing
 
 
 ## Project Structure
