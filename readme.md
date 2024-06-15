@@ -59,11 +59,22 @@ pip install -r requirements.txt
    git clone https://github.com/DhruvMiyani/MilvusProjectMLeng.git
    ```
 
-3. Install dependencies:
+3. Start Milvis:
 
    ```bash
-   pip install -r requirements.txt
+   bash standalone_embed.sh start
    ```
+4. Build Image:
+
+   ```bash
+   docker build -t milvus2:latest .
+   ```
+
+4. Run:
+
+   ```bash
+   docker run -p 80:80 milvus2
+   ```   
 
 
 
