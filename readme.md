@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 
 
-## Installation
+## Installation and Docker Compose Integration
 
 1. Clone the repository:
 
@@ -99,16 +99,6 @@ pip install -r requirements.txt
      ```bash
      python milvus/duplicate_detection.py
      ```
-
-4. **Docker/Docker Compose Integration:**
-
-   - Build and run the Docker image:
-
-     ```bash
-     docker build -t MilvisProject
-     docker-compose up
-     ```
-
 
 ## Docker Integration
 
