@@ -100,9 +100,4 @@ pip install -r requirements.txt
      python milvus/duplicate_detection.py
      ```
 
-## Docker Integration
-
-The project includes Docker and Docker Compose files (`Dockerfile` and `docker-compose.yml`) for containerization. This ensures a reproducible and isolated environment.
-
-To build and run the Docker image, follow the instructions in the [Usage](#usage) section.
 
