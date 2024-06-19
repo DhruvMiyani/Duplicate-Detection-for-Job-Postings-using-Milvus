@@ -64,12 +64,6 @@ cleaned_descriptions[1]
 # Load the pre-trained model
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Sample job descriptions (replace this with your actual dataset)
-job_descriptions = [
-    "Data Scientist with experience in Python and machine learning.",
-    "Software engineer skilled in Java and microservices.",
-    # Add more job descriptions
-]
 
 # Generate embeddings
 embeddings = model.encode(cleaned_descriptions)
